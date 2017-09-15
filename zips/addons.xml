@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.mcuchrono" name="The MCU Chronology" version="0.0.1" provider-name="Invincer">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The entire Marvel Cinematic Universe presented in chronological storytelling episode formats, including the movies, the TV shows, the one-shots, deleted scenes, and more!</summary>
+		<description lang="en">This is the entire Marvel Cinematic Universe (the movies, the SHIELD and other TV series, all the Marvel Netflix shows, the Marvel one-shots, the movie deleted and extended scenes, even the online promotional videos), all broken down into a chronological timeline order of events and presented as hour-long episodes. For a true Marvel fan, this is how the the MCU movies and TV shows were meant to be watched!</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>comics,kids,movies,tvshows,australian,canadian,uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.mcuchrono" name="MCU Chrono Repo" version="0.0.1" provider-name="Invincer">
+	<extension point="xbmc.addon.repository" name="MCU Chrono Repo">
+		<dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/mater/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Invincer/repository.mcuchrono/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Invincer/repository.mcuchrono/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Invincer/repository.mcuchrono/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The entire Marvel Cinematic Universe presented in chronological storytelling episode formats, including the movies, the TV shows, the one-shots, deleted scenes, and more!</summary>
+		<description lang="en">This is the entire Marvel Cinematic Universe (the movies, the SHIELD and other TV series, all the Marvel Netflix shows, the Marvel one-shots, the movie deleted and extended scenes, even the online promotional videos), all broken down into a chronological timeline order of events and presented as hour-long episodes. For a true Marvel fan, this is how the the MCU movies and TV shows were meant to be watched!</description>
+		<genre>comics,kids,movies,tvshows,uk,usa</genre>
+	</extension>
+</addon>
+</addons>
